@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Clone repository
         uses: actions/checkout@v2
+
       - name: Check updates and install NGINX
         uses: appleboy/ssh-action@v0.1.4
         with:
@@ -20,11 +21,12 @@ jobs:
           script: |
             sudo apt update
             sudo apt install -y nginx
-        - name: copy all files
-          uses: appleboy/scp-action@v0.1.2
-          with:
-            host: ${{ secrets.HOST }}
-            username: "root"
-            password: ${{ secrets.PASSWORD }}
-            source: "./"
-            target: "/var/www/html"
+
+      - name: copy all files
+        uses: appleboy/scp-action@v0.1.2
+        with:
+          host: ${{ secrets.HOST }}
+          username: "root"
+          password: ${{ secrets.PASSWORD }}
+          source: "./"
+          target: "/var/www/html"
