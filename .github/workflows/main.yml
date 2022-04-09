@@ -16,7 +16,7 @@ jobs:
         uses: appleboy/ssh-action@v0.1.4
         with:
           host: ${{ secrets.HOST }}
-          usernme: "root"
+          username: "root"
           password: ${{ secrets.PASSWORD }}
           script: |
             sudo apt update
