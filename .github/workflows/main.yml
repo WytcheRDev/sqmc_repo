@@ -1,0 +1,13 @@
+name: WytcheR
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    enviornment: default
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
