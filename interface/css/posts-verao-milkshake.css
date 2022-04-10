@@ -2,9 +2,9 @@
 /* CSS Document */
 
 .bgheader {background-color: rgba(160,0,0,1.00);width: 100%;height: 100px;padding: inherit;position: fixed;}
-.bgads {background: url("../../menu/img/background.png");width: 100%;height: 500px;padding: inherit;text-align: center;background-position: center;background-repeat: no-repeat;}
-.bgads-sec {background-image: url("../../menu/img/background_tw.png");width: 100%;height: 50px;padding: inherit;background-position: center;background-repeat: no-repeat;}
-.bgsec {background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ddd 100%),url("../img/bgsec.png");width: 100%;height: 900px;padding: inherit;}
+.bgads {background: url("../img/posts-verao-milkshake.png");width: 100%;height: 500px;padding: inherit;text-align: center;background-position: center;background-repeat: no-repeat;}
+.bgads-sec {background-image: url("../img/posts-verao-milkshake-tw.png");width: 100%;height: 50px;padding: inherit;background-position: center;background-repeat: no-repeat;}
+.bgsec {background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ddd 100%),url("../img/bgsec.png");width: 100%;height: 550px;padding: inherit;}
 .bgadssec {background-color: rgba(221,221,221,1.00);width: 100%;height: 1600px;padding: inherit;}
 .bgadstrh {background-color: rgba(216,216,216,1.00);width: 100%;height: 500px;padding: inherit;}
 .bgadshis {background-color: rgba(211,211,211,1.00);width: 100%;height: 1px;padding: inherit;}
@@ -22,18 +22,9 @@
 .option-buttons-1 {left: 85px;top: 30px;width: 180px;height: 35px;position: fixed;margin: 0px 50% 0px 50%}
 .option-buttons-2 {left: 275px;top: 30px;width: 90px;height: 35px;position: fixed;margin: 0px 50% 0px 50%}
 .option-buttons-3 {left: 375px;top: 30px;width: 130px;height: 35px;position: fixed;margin: 0px 50% 0px 50%}
-.navegation-content-bg-invisible {width: 100%;height: 200px;}
-.navegation {background-color: rgba(0,0,0,0.50);width: 350px;height: 100px;padding: 10px;}
-.navegation h2 {text-decoration: none;color: rgba(245,245,245,1.00);margin: 2px;font-size: 28px;}
-.navegation ul {list-style-type: none;text-align: center;}
-.navegation li {float: inherit;}
-.navegation a.navegation-li-a:link,a.navegation-li-a:visited {text-decoration: none;color: rgba(245,245,245,1.00);margin: 2px;font-size: 18px;}
-.navegation a.navegation-li-a:hover,a.navegation-li-a:active {text-decoration: underline;color: rgba(255,255,255,1.00);}
 
-.interface-content-article {background-color: rgba(253,253,253,1.00);border-radius: 25px 25px 0px 0px;width: 1100px;height: 800px;padding: 10px;}
+.interface-content-article {background-color: rgba(253,253,253,1.00);border-radius: 25px 25px 0px 0px;width: 1100px;height: 450px;padding: 10px;}
 .interface-content-title {background-color: rgba(250,250,250,1.00);width: 1000px;height: 100px;margin-top: 25px;}
-.interface-content-title h2 {text-align: left;color: black;}
-.interface-content-title p {text-align: left;color: gray;box-shadow: 0px 0px 3px 1px gray;}
 .interface-content-table {background-color: rgba(250,250,250,1.00);width: 1000px;height: auto;margin-top: 25px;}
 .interface-content-title-text-down {background-color: rgba(250,250,250,1.00);width: 1000px;height: auto;text-align: left;margin-top: 575px;font-size: 14px;font-weight: bold;}
 .interface-content-option {background-color: rgba(250,250,250,1.00);width: 250px;height: auto;float: left;}
@@ -43,9 +34,9 @@
 .interface-content-option-2 {background-color: white;width: 230px;height: 500px;float: justify;border-radius: 25px;}
 .interface-content-option-3 {background-color: white;width: 230px;height: 500px;float: justify;border-radius: 25px;}
 .interface-content-option-4 {background-color: white;width: 230px;height: 500px;float: justify;border-radius: 25px;}
-.interface-content-option h3 {font-size: 20px;text-align: left;padding: 0px 0px 0px 20px;color: rgba(10,10,10,1.00);font-size: 19px;}
+.interface-content-option h3 {font-size: 20px;text-align: left;padding: 0px 0px 0px 20px;color: rgba(10,10,10,1.00);}
 .interface-content-option p {font-size: 14px;text-align: left;margin: -15px 20px 0px 20px;color: rgba(40,40,40,1.00);font-weight: 500;}
-.interface-content-option h2 {font-size: 20px;text-align: center;margin: 106px 0px 0px 0px;color: white;width: 180px;height: 35px;border-radius: 5px;background-color: #D00000;}
+.interface-content-option h2 {font-size: 20px;text-align: center;margin: 60px 0px 0px 0px;color: white;width: 180px;height: 35px;border-radius: 5px;background-color: #D00000;}
 .interface-content-option a {float: inherit}
 .interface-content-option div.interface-content-option-1:link,div.interface-content-option-1:visited {padding: 0.1em;}
 .interface-content-option div.interface-content-option-1:hover,div.interface-content-option-1:active {padding: 0.3em;transition: 0.2s;box-shadow: 0px 0px 10px 0px crimson;}
@@ -100,5 +91,4 @@
 
 .bgfooter-content-table-title-1 table {left: 120px;position: relative;bottom: 100px;color: white;font-weight: 400;}
 .bgfooter-content-table-title-2 table {left: 0px;position: relative;bottom: 70px;color: white;font-weight: 400;}
-
 
