@@ -2,8 +2,8 @@
 /* CSS Document */
 
 .bgheader {background-color: rgba(160,0,0,1.00);width: 100%;height: 100px;padding: inherit;position: fixed;}
-.bgads {background: url("../img/posts-verao-milkshake.png");width: 100%;height: 500px;padding: inherit;text-align: center;background-position: center;background-repeat: no-repeat;}
-.bgads-sec {background-image: url("../img/posts-verao-milkshake-tw.png");width: 100%;height: 50px;padding: inherit;background-position: center;background-repeat: no-repeat;}
+.bgads {background: url("../img/posts-verao-bobs.png");width: 100%;height: 500px;padding: inherit;text-align: center;background-position: center;background-repeat: no-repeat;}
+.bgads-sec {background-image: url("../img/posts-verao-bobs-tw.png");width: 100%;height: 50px;padding: inherit;background-position: center;background-repeat: no-repeat;}
 .bgsec {background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ddd 100%),url("../img/bgsec.png");width: 100%;height: 450px;padding: inherit;}
 .bgadssec {background-color: rgba(221,221,221,1.00);width: 100%;height: 1600px;padding: inherit;}
 .bgadstrh {background-color: rgba(216,216,216,1.00);width: 100%;height: 500px;padding: inherit;}
