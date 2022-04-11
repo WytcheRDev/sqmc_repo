@@ -4,7 +4,7 @@
 .bgheader {background-color: rgba(160,0,0,1.00);width: 100%;height: 100px;padding: inherit;position: fixed;}
 .bgads {background: url("../../menu/img/background.png");width: 100%;height: 500px;padding: inherit;text-align: center;background-position: center;background-repeat: no-repeat;}
 .bgads-sec {background-image: url("../../menu/img/background_tw.png");width: 100%;height: 50px;padding: inherit;background-position: center;background-repeat: no-repeat;}
-.bgsec {background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ddd 100%),url("../img/bgsec.png");width: 100%;height: 1900px;padding: inherit;}
+.bgsec {background-image: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #ddd 100%),url("../img/bgsec.png");width: 100%;height: 2050px;padding: inherit;}
 .bgadssec {background-color: rgba(221,221,221,1.00);width: 100%;height: 700px;padding: inherit;}
 .bgadstrh {background-color: rgba(216,216,216,1.00);width: 100%;height: 500px;padding: inherit;}
 .bgadshis {background-color: rgba(211,211,211,1.00);width: 100%;height: 1px;padding: inherit;}
@@ -38,23 +38,30 @@
 .interface-content-table-red-left h4 {margin-right: auto;margin-left: 70px;padding-top: 5px;}
 .interface-content-table-red-right img {margin: auto;}
 .interface-content-table-red-right h4 {margin-right: auto;margin-left: 70px;padding-top: 5px;}
-.interface-content-article {background-color: rgba(253,253,253,1.00);border-radius: 25px 25px 0px 0px;width: 1100px;height: 1800px;padding: 10px;}
-.interface-content-title {background-color: rgba(250,250,250,1.00);width: 1000px;height: 100px;margin-top: 25px;}
+.interface-content-article {background-color: rgba(253,253,253,1.00);border-radius: 25px 25px 0px 0px;width: 1100px;height: 1950px;padding: 10px;}
+.interface-content-title {background-color: rgba(253,253,253,1.00);width: 1000px;height: 100px;margin-top: 25px;}
 .interface-content-title img {margin: -100px 0px 0px 0px}
 .interface-content-title h2 {text-align: left;color: black;font-size: 30px;}
 .interface-content-title p {text-align: left;color: black;font-size: 18px;font-family: "Trebuchet MS";margin: -10px 0px 0px 0px}
 .interface-content-table {background-color: rgba(250,250,250,1.00);width: 1000px;height: auto;margin-top: auto;}
-.interface-content-table h3 {text-align: justify}
+.interface-content-table h3 {text-align: justify;font-size: 24px;margin-bottom: 10px}
+.interface-content-table p {font-size: 17px;font-weight: 100;margin-bottom: 30px;color: grey}
 .interface-content-table form {text-align: justify;}
-.interface-content-table select {width: 100%;height: 40px;border-radius: 5px;font-size: 20px;font-family: "Trebuchet MS";}
+.interface-content-table select {width: 50%;height: 40px;border-radius: 5px;font-size: 20px;font-family: "Trebuchet MS";}
 .interface-content-table input {width: 99%;height: 30px;border-radius: 5px;font-size: 20px;font-family: "Trebuchet MS";}
 .fale-conosco-form-input {width: 200%;margin: auto;padding: auto;}
 .fale-conosco-form-input-flex {display: flex}
-.fale-conosco-form-left {margin-right: auto}
-.fale-conosco-form-right {margin-right: auto}
-.fale-conosco-form-msg input {height: 120px;}
+.fale-conosco-form-left {margin-right: auto;width: 320px}
+.fale-conosco-form-right {margin-right: 180px;width: 170px;}
+.fale-conosco-form-msg input {height: 30px;}
 .fale-conosco-form-checkbox {margin: 20px 0px 0px 50px;text-align: justify}
 .fale-conosco-form-checkbox-submit input {margin: 15px 0px 0px 50px;float: left;width: 200px;height: 40px;border-radius: 5px;box-shadow: 0px 2px 5px 0px darkred;color: white;background-color: red}
+.interface-content-table-list {margin: 30px 30px 150px 30px;font-family: "Trebuchet MS";text-align: justify}
+.interface-content-table-list img {margin: 20px;border-radius: 10px;}
+.interface-content-table-list h3 {margin: 20px;font-size: 30px;}
+.interface-content-table-list p {margin: 20px;font-size: 16px;font-weight: 100;}
+.interface-content-table-list ul {margin: 30px}
+.interface-content-table-list li {text-align: justify;font-size: 17px}
 
 .bgadssec-content-article-ads img {margin-right: 15px;margin-left: 15px;}
 .bgadssec-content-article {padding: 10px;}
